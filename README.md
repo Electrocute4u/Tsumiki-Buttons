@@ -41,8 +41,9 @@ const discord = require('discord.js');
 const client = new discord.Client();
 
 // Both of these have to be below your discord.Client()
-require("discord-buttons")(client);
-require('discord-slider')(client); 
+// Replace <client> with what you called your instance of the bot. (i.e bot)
+require("discord-buttons")(<client>);
+require('tsumiki-buttons')(<client>); 
 ```
 
 ## Standard Method
