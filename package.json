@@ -1,0 +1,23 @@
+{
+  "name": "tsumiki-buttons",
+  "version": "1.0.0",
+  "description": "Tsumiki's Discord buttons with improved features. Designed solely to fit Tsumiki Discord Bot.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  "tsumiki"
+  ],
+  "author": {
+    "name": "Electrocute4u"
+  },
+  "license": "Apache-2.0 License",
+  "dependencies": {
+    "discord-buttons": "^3.2.1"
+  },
+  "homepage": "https://github.com/Electrocute4u/Tsumiki-Buttons#readme",
+  "bugs": {
+    "url": "https://github.com/Electrocute4u/Tsumiki-Buttons/issues"
+  }
+}
