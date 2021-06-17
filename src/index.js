@@ -46,9 +46,11 @@ module.exports = (client) => {
                 .setID('next_disabled')
                 .setDisabled();
 
+            
+            
             if (emojiNext && emojiBack) {
-                
-                if(emojiBack.startsWith("<:")){
+
+                if(emojiBack.endsWith(">")){
                 // Cuts the ID out for Custom Emoji support
                 let emoji = emojiBack.substring(
                 emojiBack.lastIndexOf(":") + 1, 
@@ -57,7 +59,7 @@ module.exports = (client) => {
                     emojiBack = emoji
                 }
 
-                if(emojiNext.startsWith("<:")){
+                if(emojiNext.endsWith(">")){
                 // Cuts the ID out for Custom Emoji support
                 let emoji = emojiNext.substring(
                 emojiNext.lastIndexOf(":") + 1, 
@@ -65,6 +67,7 @@ module.exports = (client) => {
                 );
                     emojiNext = emoji
                 }
+
                 button_back.setEmoji(emojiBack)
                 button_next.setEmoji(emojiNext)
                 button_back_disabled.setEmoji(emojiBack)
