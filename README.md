@@ -42,6 +42,7 @@ const client = new discord.Client();
 
 // Both of these have to be below your discord.Client()
 // Replace <client> with what you called your instance of the bot. (i.e bot)
+require('discord-buttons')(<client>);
 require('tsumiki-buttons')(<client>); 
 ```
 
